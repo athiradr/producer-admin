@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Producer Details</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f6f7fb;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+    h1 {
+      font-size: 22px;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+    .section-title {
+      background: #d9d5f7;
+      padding: 8px;
+      font-weight: bold;
+      border-radius: 4px;
+      margin-top: 20px;
+    }
+    p {
+      margin: 6px 0;
+    }
+    .btn-row {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin: 20px 0;
+    }
+    .btn {
+      padding: 10px 16px;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      cursor: pointer;
+    }
+    .approve { background: #4CAF50; }
+    .reject { background: #f44336; }
+    .reviews {
+      background: #f9f9fc;
+      border-radius: 6px;
+      padding: 10px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Producer Profile (Admin View)</h1>
+
+    <div class="section-title">Producer Details</div>
+    <p><b>Name:</b> Farm2street</p>
+    <p><b>Location:</b> Chennai, Tamil Nadu</p>
+    <p><b>Contact:</b> +91 9876543210</p>
+    <p><b>Products:</b> Panipuri, Veg Momos</p>
+    <p><b>Certifications:</b> FSSAI Certified</p>
+
+    <div class="section-title">Description</div>
+    <p>Farm2street has been supplying street snacks to local vendors since 2022. Known for timely delivery and quality.</p>
+
+    <div class="section-title">Vendor Reviews</div>
+    <div class="reviews">
+      <p><b>Vendor A:</b> Prices are reasonable even on weekends.</p>
+      <p><b>Vendor B:</b> Good taste and hygiene.</p>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn approve">Approve Producer</button>
+      <button class="btn reject">Reject Producer</button>
+    </div>
+  </div>
+
+</body>
+</html>
